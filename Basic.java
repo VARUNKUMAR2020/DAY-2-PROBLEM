@@ -41,5 +41,23 @@ public class Basic {
                 System.out.println("NINE");
             }
         }
+        
+        //Range of the numbers:
+        System.out.println("Enter The Number To Find Units: ");
+        int range = num.nextInt();
+        if(range >= 1 && range <=9){
+            System.err.println("Range is Units");
+        }
+        if(range >=10 && range <=99){
+            System.out.println("Range is Tens");
+        }
+        if(range >=100 && range <=999){
+            System.out.println("Range is Hundreds");
+        }
+        if(range >=1000 && range <=9999){
+            System.out.println("Range is Thousands");
+        }
+
+
     }
 }
